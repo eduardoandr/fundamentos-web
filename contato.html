@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
-       
+
         <li>
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center mb-px">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">E-mail:</label>
-        <input type="text" id="nome"><br>
-        <br>
-        <label for="email">Nome:</label>
-        <input type="email" id="email"><br>
-        <br>
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea><br>
-        <br>
+    <div class="container">
 
-        <button>Enviar</button>
-    </form>
+        <div>
+            <form>
+                
+                <label for="nome">E-mail:</label>
+                <input type="text" id="nome"><br>
+                <br>
+                <label for="email">Nome:</label>
+                <input type="email" id="email"><br>
+                <br>
+                <label for="assunto">Assunto:</label>
+                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea><br>
+                <br>
 
-    <h2>Endereço</h2>
-    <p>Suzano-SP</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233966.
-    08122911098!2d-46.45909878375291!3d-23.61437209264492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-    1!3m3!1m2!1s0x94ce717129affab3%3A0xc7ebff52701efcd8!2sSuzano%20-%20SP!5e0!3m2!1spt-BR!2sbr!
-    4v1634838758506!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" 
-    loading="lazy"></iframe>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-px mb-px">
+            
+            <p>Suzano-SP</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233966.
+            08122911098!2d-46.45909878375291!3d-23.61437209264492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x94ce717129affab3%3A0xc7ebff52701efcd8!2sSuzano%20-%20SP!5e0!3m2!1spt-BR!2sbr!
+            4v1634838758506!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen=""
+                loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/eduardo.andrade.1272" target="_blank">
+                <img class="tamanho p-40" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.instagram.com/eduardo.andrade.1272/" target="_blank">
+                <img class="tamanho p-40" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/eduardo-andrade-9a588a21a/" target="_blank">
+                <img class="tamanho p-40" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+           
+           </div>
+
+        <p class="center">
+            Todos os direitos reservados: Eduardo Andrade &copy;
+        </p>
+    </footer>
+
+
 </body>
+
 </html>
